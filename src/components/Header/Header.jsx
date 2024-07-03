@@ -1,5 +1,8 @@
-import reactImg from "../assets/react-core-concepts.png"; //import statement that saves a value for use in the Header.
+import reactImg from "../../assets/react-core-concepts.png";
+import './Header.css'
+
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
+
 
 function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
